@@ -1,0 +1,24 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Pet Sim Z By Irish.#5096", "Midnight")
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Main")
+
+Section:NewButton("Buy All From 1st Slot Merchant", "Buys slot 1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Irish9999/gegd/main/buy1?token=GHSAT0AAAAAAB4HMJHNQ656G2KLETZNUKKCY4V3LBQ"))()
+end)
+
+
+Section:NewButton("Buy All From 2nd Slot Merchant", "Buys slot 2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Irish9999/sdfdsa/main/buy2"))()
+end)
+
+
+Section:NewButton("Buy All From 3rd Slot Merchant", "Buys slot 3", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Irish9999/w467wf567fw/main/buy3"))()
+end)
+
+
+Section:NewButton("Buy All Slots", "Buys all slots", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Irish9999/123123124234135/main/buyall"))()
+end)
