@@ -39,7 +39,7 @@ Section:NewButton("Autum Egg", "Click", function()
     
 end)
 
-Section:NewButton("Golden Lucky Egg Opener", "Click", function()
+Section:NewButton("Golden Lucky Egg", "Click", function()
 local args = {
     [1] = {
         [1] = "Golden Lucky Egg",
@@ -50,3 +50,4 @@ local args = {
 
 workspace:FindFirstChild("HUH WAIT WHY ROBLOX").__REMOTES:FindFirstChild("buyx egg"):InvokeServer(unpack(args))
 
+end)
