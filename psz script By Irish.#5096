@@ -50,3 +50,4 @@ local args = {
 
 workspace:FindFirstChild("HUH WAIT WHY ROBLOX").__REMOTES:FindFirstChild("buyx egg"):InvokeServer(unpack(args))
 
+end)
