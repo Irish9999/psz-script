@@ -23,10 +23,10 @@ Section:NewButton("Buy All Slots", "Buys all slots", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Irish9999/123123124234135/main/buyall"))()
 end)
 
-local Tab = Window:NewTab("Open Egg")
-local Section = Tab:NewSection("Open Egg")
+local Tab = Window:NewTab("Eggs")
+local Section = Tab:NewSection("Open Eggs")
 
-Section:NewButton("Autum EGgg", "Click", function()
+Section:NewButton("Autum Egg", "Click", function()
     local args = {
         [1] = {
             [1] = "Golden Acorn Egg",
@@ -38,3 +38,15 @@ Section:NewButton("Autum EGgg", "Click", function()
     workspace:FindFirstChild("HUH WAIT WHY ROBLOX").__REMOTES:FindFirstChild("buyx egg"):InvokeServer(unpack(args))
     
 end)
+
+Section:NewButton("Golden Lucky Egg Opener", "Click", function()
+local args = {
+    [1] = {
+        [1] = "Golden Lucky Egg",
+        [2] = false,
+        [3] = true
+    }
+}
+
+workspace:FindFirstChild("HUH WAIT WHY ROBLOX").__REMOTES:FindFirstChild("buyx egg"):InvokeServer(unpack(args))
+
