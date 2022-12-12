@@ -26,8 +26,6 @@ end)
 local Tab = Window:NewTab("Open Egg")
 local Section = Tab:NewSection("Open Egg")
 
-
-
 Section:NewButton("Autum EGgg", "Click", function()
     local args = {
         [1] = {
